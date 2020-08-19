@@ -4,7 +4,7 @@
 
 1. create the conda environment provided by using  **TODO**
 
-2. download the caffe model from [here](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/)
+2. download the caffe model from [here](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/). Unzip it in the root directory.
 
 3. use the following command to actually create the tensorflow model from the caffe model (*Note* this command specifies you use the root directory's `.prototxt` **not** the one provided by the webpage above. This is important for the convertor since the original caffe model uses an older `.prototxt` syntax which needed to be modified to be used with modern caffe and tensorflow.
 
