@@ -28,7 +28,7 @@ Final  trained model is contained in the `/descriptorGenderClassifier` directory
 
 After running `python train_evaluate_model.py --num_epochs 10 --batch_size 16 --train_prop 0.70`
 
-classification accuracy overall on Test set: 0.956048387097
+classification accuracy overall on Test set: `0.956048387097`
 
 classification metrics per class on Test set: 
 
