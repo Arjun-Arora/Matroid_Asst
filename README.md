@@ -37,9 +37,10 @@ classification metrics per class on Test set:
         male       0.97      0.94      0.96      2513
       female       0.94      0.97      0.96      2447
 
-   micro avg       0.96      0.96      0.96      4960
-   macro avg       0.96      0.96      0.96      4960
-weighted avg       0.96      0.96      0.96      4960
+      micro avg    0.96      0.96      0.96      4960
+      macro avg    0.96      0.96      0.96      4960
+    weighted avg   0.96      0.96      0.96      4960
+  
 
 
 # Citations
