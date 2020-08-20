@@ -9,8 +9,6 @@ import tensorflow as tf
 # import tensorflow as tf
 import matplotlib.pyplot as plt 
 import random
-# sys.path.append("./caffe-tensorflow/")
-# from vggface import VGG_FACE_16_layer
 
 import argparse
 
