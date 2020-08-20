@@ -8,7 +8,7 @@
 
 3. Train and evaluate the model via `python train_evaluate_model.py` 
 
-(**NOTE** You can access optional params (num_epochs, etc) by running `python train_evaluate_model.py -h`)
+(**NOTE** You can access optional params (`num_epochs`, `save_model_dir`, etc) by running `python train_evaluate_model.py -h`)
 
 
 ## OPTIONAL REBUILD OF FEATURE VECTORS
@@ -42,3 +42,9 @@ weighted avg       0.96      0.96      0.96      4960
 # Citations
 
 Installed vggface model from [keras-vggface](https://github.com/rcmalli/keras-vggface) by Refik Can Malli 
+
+# Discussion
+
+Before building my model, I preprocess the vggface descriptors for male and female faces into `.npy` files via the `create_feature_vectors.py` script. 
+
+Afterward, I use those preprocessed feature vectors as the inputs to a small feed-forward fully connected model in the `train_evaluate_model.py` script. Full description of the model is contained in the script. 
