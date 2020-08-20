@@ -4,7 +4,7 @@
 
 1. create the conda environment provided by using  **TODO**
 
-2. install vggface model from rcmalli via
+2. install vggface model from [this](https://github.com/rcmalli/keras-vggface) by Refik Can Malli via
 	- `pip install git+https://github.com/rcmalli/keras-vggface.git`
 	- `pip install keras_vggface`
 
