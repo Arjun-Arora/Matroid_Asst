@@ -51,4 +51,4 @@ Installed vggface model and weights from [keras-vggface](https://github.com/rcma
 
 Before building my model, I preprocess the vggface descriptors for male and female faces into `.npy` files via the `create_feature_vectors.py` script. 
 
-Afterward, I use those preprocessed feature vectors as the inputs to a small feed-forward fully connected model in the `train_evaluate_model.py` script. Full description of the gender classifier model is contained in the script. Since the feature vectors provided by 
+Afterward, I use those preprocessed feature vectors as the inputs to a small feed-forward fully connected model in the `train_evaluate_model.py` script. Full description of the gender classifier model is contained in the script.
