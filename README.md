@@ -1,5 +1,6 @@
 # Matroid_Asst
 
+
 # Quickstart
 
 1. create the conda environment provided by using  `conda env create -f environment.yml`
@@ -10,6 +11,7 @@
 
 (**NOTE** You can access optional params (`num_epochs`, `save_model_dir`, etc) by running `python train_evaluate_model.py -h`)
 
+Final model is contained in the `/descriptorGenderClassifier` directory
 
 ## OPTIONAL REBUILD OF FEATURE VECTORS
 
@@ -47,4 +49,4 @@ Installed vggface model from [keras-vggface](https://github.com/rcmalli/keras-vg
 
 Before building my model, I preprocess the vggface descriptors for male and female faces into `.npy` files via the `create_feature_vectors.py` script. 
 
-Afterward, I use those preprocessed feature vectors as the inputs to a small feed-forward fully connected model in the `train_evaluate_model.py` script. Full description of the model is contained in the script. 
+Afterward, I use those preprocessed feature vectors as the inputs to a small feed-forward fully connected model in the `train_evaluate_model.py` script. Full description of the gender classifier model is contained in the script. Since the feature vectors provided by 
