@@ -11,7 +11,7 @@
 
 (**NOTE** You can access optional params (`num_epochs`, `save_model_dir`, etc) by running `python train_evaluate_model.py -h`)
 
-Final model is contained in the `/descriptorGenderClassifier` directory
+Final  trained model is contained in the `/descriptorGenderClassifier` directory
 
 ## OPTIONAL REBUILD OF FEATURE VECTORS
 
