@@ -45,7 +45,7 @@ classification metrics per class on Test set:
 
 # Citations
 
-Installed vggface model from [keras-vggface](https://github.com/rcmalli/keras-vggface) by Refik Can Malli 
+Installed vggface model and weights from [keras-vggface](https://github.com/rcmalli/keras-vggface) by Refik Can Malli 
 
 # Discussion
 
