@@ -31,6 +31,7 @@ After running `python train_evaluate_model.py --num_epochs 10 --batch_size 16 --
 classification accuracy overall on Test set: 0.956048387097
 
 classification metrics per class on Test set: 
+
               precision    recall  f1-score   support
 
         male       0.97      0.94      0.96      2513
